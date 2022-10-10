@@ -12,3 +12,11 @@ then you should be connected to your wifi via the same IP address provided by DH
 you dont need to setup wifi ssid or whatever
 
 ```
+
+# docker
+```
+When neither sudo nor apt-get is available in container, you can also jump into running container as root user using command
+docker exec -u root -t -i container_id /bin/bash
+
+
+```
